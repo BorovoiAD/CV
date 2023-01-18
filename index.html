@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/var.css">
+  <link rel="stylesheet" href="css/reset.css">
+  <style>@import url('https://fonts.googleapis.com/css2?family=Sofia+Sans+Semi+Condensed:wght@400;600;800&display=swap');</style>
+  <link rel="stylesheet" href="css/style.css">
+  <title>CV</title>
+</head>
+<body>
+  <section class="cv">
+    <input type="checkbox" name="personal_show" id="personal_show" class="personal_show">
+    <label for="personal_show" class="personal_show_toggle"><span></span></label>
+    <div class="personal">
+      <div class="wrapper">
+        <div class="personal_photo">
+
+          <div class="photo"></div>
+        </div>
+
+        <div class="data">
+          <h2 class="personal_h2">Личные данные</h2>
+
+          <div class="personal_data_wrapper">
+            <span class="personal_data_wrapper_name">Имя</span>
+            <span class="personal_data_value">Боровой Александр</span>
+          </div>
+          
+          <div class="personal_data_wrapper">
+            <span class="personal_data_wrapper_name">Адрес проживания</span>
+            <span class="personal_data_value">г.&nbsp;Минск, ул.&nbsp;Ольшевского д.&nbsp;78 кв.&nbsp;81</span>
+          </div>
+          
+          <div class="personal_data_wrapper">
+            <span class="personal_data_wrapper_name">Номер телефона</span>
+            <a href="tel:+375291688660" class="personal_data_value">+375 29 168-86-60</a>
+          </div>
+          
+          <div class="personal_data_wrapper">
+            <span class="personal_data_wrapper_name">Email</span>
+            <a href="mailto:borovoiad@gmail.com" class="personal_data_value">borovoiad@gmail.com</a>
+          </div>
+          
+          <div class="personal_data_wrapper">
+            <span class="personal_data_wrapper_name">Дата рождения</span>
+            <span class="personal_data_value">05.01.1993</span>
+          </div>
+          
+        </div>
+
+        <div class="interests">
+          <h2 class="personal_h2">Увлечения</h2>
+          <div class="hobby">
+            <span class="interest_name">Спорт</span>
+            <span class="interest_name">Чтение</span>
+            <span class="interest_name">Дрессировка собаки</span>
+          </div>
+        </div>
+
+        <div class="languages">
+          <h2 class="personal_h2">Языки</h2>
+
+          <div class="languages_info">
+            <span class="language_name">Русский</span>
+            <span class="language_level">Родной язык</span>
+          </div>
+          
+          <div class="languages_info">
+            <span class="language_name">Беларуский</span>
+            <span class="language_level">B2</span>
+          </div>
+          
+          <div class="languages_info">
+            <span class="language_name">Английский</span>
+            <span class="language_level">A2</span>
+          </div>
+
+          <div class="languages_info">
+            <span class="language_name">Французский</span>
+            <span class="language_level">A1</span>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <div class="experience">
+      
+      <div class="general">
+        <h1 class="my_name head_exp">Боровой Александр Дмитриевич</h1>
+        <p>Есть небольшой опыт работы в ИТ индустрии, а именно в разработке гемблинговых игр. Быстро учусь, рассчитываю на долгое сотрудничество</p>
+      </div>
+
+      <div class="timeline">
+        <h2 class="timeline_head head_exp">Опыт работы</h2>
+
+        <div class="timeline_step">
+          <div class="time">
+            <span>03.2022</span><span>-</span><span>07.2022</span>
+          </div>
+          <div class="action">
+            <input name="action_desc" type="radio" checked class="action_show_desc" id="action_desc_1">
+            <label for="action_desc_1" class="action_desc_label">Слот билдер оператор</label>
+            <p class="action_description company">ООО "Скайвинд Тек Бай"</p>
+            <ul class="action_description">
+              <li>Создание и редактирование анимации на таймлайне;</li>
+              <li>Добавление локализаций;</li>
+              <li>Оптимизация ресурсов приложения;</li>
+              <li>Создание и настройка частиц;</li>
+              <li>Организация взаимодействия анимаций/сцен/кнопок через события.</li>
+              <li>Создание и настройка интерфейса игры по оригинальному статичному рисунку;</li>
+              <li>Импорт ресурсов в приложение (графика, звуки, анимация);</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="timeline_step">
+          <div class="time">
+            <span>10.2021</span><span>-</span><span>02.2022</span>
+          </div>
+          <div class="action">
+            <input name="action_desc" type="radio" class="action_show_desc" id="action_desc_2">
+            <label for="action_desc_2" class="action_desc_label">Укладчик упаковщик</label>
+            <p class="action_description company">ООО "Ориджинал Европиан Маннол Лубрикантся"</p>
+            <p class="action_description">Работа на линии розлива масла в бочки</p>
+          </div>
+        </div>
+
+        <div class="timeline_step">
+          <div class="time">
+            <span>07.2021</span><span>-</span><span>09.2021</span>
+          </div>
+          <div class="action">
+            <input name="action_desc" type="radio" class="action_show_desc" id="action_desc_3">
+            <label for="action_desc_3" class="action_desc_label">Инспектор службы безопасности</label>
+            <p class="action_description company">ГП "Минский Метрополитен"</p>
+            <p class="action_description">Проведение мероприятий для выявления запрещённых предметов и веществ
+            </p>
+          </div>
+        </div>
+
+        <div class="timeline_step">
+          <div class="time">
+            <span>07.2020</span><span>-</span><span>06.2021</span>
+          </div>
+          <div class="action">
+            <input name="action_desc" type="radio" class="action_show_desc" id="action_desc_4">
+            <label for="action_desc_4" class="action_desc_label">Кладовщик</label>
+            <p class="action_description company">ООО "Фрукомп"</p>
+            <p class="action_description">Сборка и отправка заказов</p>
+          </div>
+        </div>
+
+        <div class="timeline_step">
+          <div class="time">
+            <span>03.2020</span><span>-</span><span>06.2020</span>
+          </div>
+          <div class="action">
+            <input name="action_desc" type="radio" class="action_show_desc" id="action_desc_5">
+            <label for="action_desc_5" class="action_desc_label">Дежурный аттракционов и игрового оборудования</label>
+            <p class="action_description company">ООО "Летопарк"</p>
+            <p class="action_description">Работа с людьми на аттракционах</p>
+          </div>
+        </div>
+
+        <div class="timeline_step">
+          <div class="time">
+            <span>08.2017</span><span>-</span><span>01.2019</span>
+          </div>
+          <div class="action">
+            <input name="action_desc" type="radio" class="action_show_desc" id="action_desc_6">
+            <label for="action_desc_6" class="action_desc_label">Логист</label>
+            <p class="action_description company">ООО "ПТД ИМпласт"</p>
+            <p class="action_description">Составление маршрута доставок, обзвон клиентов, контроль за загрузками, контроль водителей на маршруте.</p>
+          </div>
+        </div>
+
+        <div class="timeline_step">
+          <div class="time">
+            <span>05.2017</span><span>-</span><span>07.2017</span>
+          </div>
+          <div class="action">
+            <input name="action_desc" type="radio" class="action_show_desc" id="action_desc_7">
+            <label for="action_desc_7" class="action_desc_label">Букмейкер</label>
+            <p class="action_description company">ООО "Скул Бук"</p>
+            <p class="action_description">Стилизация книг с использованием xml и css</p>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="education">
+        <h2 class="head_exp">Образование</h2>
+        <div class="timeline_step">
+          <div class="time">
+            <span>09.2010</span><span>-</span><span>06.2015</span>
+          </div>
+          <div class="action">
+            <p class="action_education">Экономист-менеджер</p>
+            <p class="">Международный гуманитарно-экономический институт</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="skills">
+        <h2 class="head_exp">Навыки</h2>
+        <p>У меня уверенные знания HTML / CSS, базовые знания JavaScript / PHP / SQL / GIT / Photoshop. Английский язык на уровне pre-intermediate.</p>
+        <p>Есть опыт работы с Jira, Bitbucket, SourceTree</p>
+      </div>
+
+    </div>
+
+  </section>
+  <script src="js/script.js" defer></script>
+</body>
+</html>
